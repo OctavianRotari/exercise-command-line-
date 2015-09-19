@@ -1,0 +1,1000 @@
+  296  cat longText.txt
+  297  cat longText.txt | less
+  298  less longText.txt
+  299  cat combined.txt > newCombined.txt
+  300  ls *.txt
+  301  ls new*.txt
+  302  cd ~/documents find . -name *.html -print > html.txt
+  303  cd ~/Documents find . -name *.html -print > html.txt
+  304  cd ~ find . -name "*.txt" -print
+  305  find . -name "*.txt" -print
+  306  find . -name *.txt -print > myTxt.txt
+  307  otto
+  308  cd otto
+  309  find . -name *.txt > myTxt.txt
+  310  find . -name "*.txt" > myTxt.txt
+  311  less myTxt.txt
+  312  greo binary *.txt
+  313  grep binary *.txt
+  314  find ~ "*.txt" -print | grep readme
+  315  cd ..
+  316  find .-name "*.txt" -print | grep readme
+  317  find . -name "*.txt" -print | grep readme
+  318  otto
+  319  cd otto
+  320  find . -name "*.txt" -print | grep readme
+  321  cat > leggimi
+  322  mv leggimi leggimi.txt
+  323  find . -name "*.txt" -print | grep readme
+  324  find . -name "*.txt" -print | grep README
+  325  grep readme.txt
+  326  grep readme .txt
+  327  grep readme *.txt
+  328  find ~ -name "*.txt" -print | grep README
+  329  find -name "*.txt" -print | grep readme
+  330  find ~ -name "*.txt" -print | grep README
+  331  find -name "*.txt" -print | grep README
+  332  find -name "*.txt" -print
+  333  find -name "*.txt" -print | grep binary
+  334  find ~ -name "*" -print | grep "\d+"
+  335  find -name "*.txt" -print | grep binary
+  336  find ~ -name "*.txt" -print | grep README
+  337  find -name "*.txt" -print 
+  338  mv leggimi.txt readme.txt
+  339  find -name "*.txt" -print | grep readme
+  340  mount -t "ntfs" -o
+  341  which ruby
+  342  ruby version
+  343  sudo apt-get install ruby-full
+  344  head `which irb`
+  345  head `which ruby`
+  346  env
+  347  "echo $ENV_VAR"
+  348  ENV_VAR
+  349  ENV HOME
+  350  env home
+  351  env-home
+  352  env_home
+  353  DESKTO_SESSION
+  354  LC_TIME=de_DE.UTF-8
+  355  echo $HOME
+  356  echo $LANGUAGE
+  357  echo "hello"
+  358  echo "Hello, world" > hello.txt
+  359  ls
+  360  rm -i hello.txt
+  361  echo $PATH
+  362  echo $ruby
+  363  echo $ls
+  364  sudo mkdir /devices/storage
+  365  sudo mount -o ro /dev/sda1
+  366  sudo mkdir /dev/sda5 at /media/octo/storage
+  367  sudo mkdir /dev/sda5/media/octo/storage
+  368  pwd
+  369  cd storage
+  370  sudo mount -o ro /dev/sda5 
+  371  sudo mount -o ro /dev/sda5/media/storage
+  372  rvm use 1.9.3
+  373  ruby version
+  374  which ruby
+  375  rvm use 1.5.0
+  376  rvm
+  377  /opt
+  378  cd opt
+  379  cd /opt
+  380  rmv
+  381  cd -
+  382  rvm use 1.9.3
+  383  sudo rvm install 1.9.3
+  384  rvmsudo rvm install 1.9.3
+  385  gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3
+  386  \curl -sSL https://get.rvm.io | bash
+  387  `source /home/octo/.rvm/scripts/rvm`
+  388  rvm use 1.9.3
+  389  export PATH=$PATH:/opt/rvm/bin:/opt/rvm/sbin
+  390  rvm use 1.9.3
+  391  cd home 
+  392  cd octo
+  393  ls
+  394  cd ..
+  395  cd octo
+  396  cd .rvm
+  397  cd scripts/rvm
+  398  cd scripts
+  399  cd rvm
+  400  ls
+  401  rvm set 1.9.3
+  402  echo $rvm
+  403  cd ~
+  404  echo $rvm
+  405  \curl -sSL https://get.rvm.io | bash -s stable --ruby
+  406  rvm use 2.2.1
+  407  rvm
+  408  which ruby
+  409  echo $path
+  410  echo $ PATH
+  411  echo $PATH
+  412  echo $RUBY
+  413  echo $ruby
+  414  echo $ PATH
+  415  echo $PATH
+  416  echo $rvm
+  417  ruby
+  418  LS
+  419  ls
+  420  cd otto
+  421  ls
+  422  ./hello.rb
+  423  ruby ./hello.rb
+  424  export SEASON=winter
+  425  echo $SEASON
+  426  export PATH=$PATH:/usr/local
+  427  echo $ENV_VAR
+  428  $ echo $HOME
+  429  echo $HOME
+  430  echo $RUBY
+  431  echo $DATE
+  432  ENV
+  433  env
+  434  echo $PATH
+  435  ruby ./hello.rb
+  436  echo $PATH | cat >  path.txt
+  437  ls
+  438  less path.txt
+  439  emv
+  440  env
+  441  env | cat > env.txt
+  442  ls
+  443  less env.txt
+  444  ruby ./hello.rb
+  445  jobs
+  446  echo $SEASON
+  447  echo $season
+  448  echo $SEASON
+  449  export SEASON=winter
+  450  echo $SEASON
+  451  echo "export SEASON=winter" >> ~/ .bash_profile
+  452  echo "export SEASON=winter" >> ~/.bash_profile
+  453  echo $SEASONS
+  454  echo $SEASON
+  455  echo "export SEASON=winter" >> ~/.bash_profile
+  456  echo $SEASON
+  457  echo "export SEASON=winter">>~/.bash_profile
+  458  echo $SEASON
+  459  echo "export SEASON=winter" >> .bash_profile
+  460  echo $season
+  461  echo $SEASON
+  462  export SEASON=winter
+  463  echo $SEASON
+  464  "export SEASON=winter" >> ~/.bash_profile
+  465  export SEASON=winter
+  466  echo "export SEASON=winter" >> ~/.bash_profile
+  467  echo $SEASON
+  468  cd ..
+  469  ls
+  470  cd ..
+  471  ls
+  472  find .bash_profile
+  473  export SEASON=winter
+  474  echo $SEASON
+  475  echo "export SEASON=winter" >> ~/.bash_profile
+  476  echo $winter
+  477  echo $SEASON
+  478  cat ~/.bash_profile
+  479  echo $export SEASON
+  480  echo $season
+  481  echo $SEASON
+  482  ps
+  483  ps x
+  484  echo "export SEASON=winter" > ~/.bash_profile
+  485  cat ~/.bash_profile
+  486  echo $SEASON
+  487  echo "[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function* export SEASON=winter" > ~/.bash_profile
+  488  cat ~/.bash_profile
+  489  echo $SEASON
+  490  $echo $SEASON
+  491  echo $SEASON
+  492  ps x | grep bash
+  493  chmop
+  494  ls -l
+  495  vi mifile
+  496  exit
+  497  cat ~/.bash_profile
+  498  echo $seaso
+  499  echo $SEASON
+  500  export SEASON = winter
+  501  export SEASON= winter
+  502  echo $season
+  503  echo $SEASON
+  504  export SEASON=winter
+  505  echo $SEASON
+  506  echo "export SEASON=winter" >> ~/.bash_profile
+  507  echo $SEASON
+  508  EXIT
+  509  exit
+  510  echo $SEASON
+  511  env
+  512  \curl -sSL https://get.rvm.io | bash -s stable --ruby
+  513  export SEASON=winter
+  514  echo "export SEASONA=winter" >> ~/.basgrc
+  515  echo $SEASON
+  516  exit
+  517  echo $SEASON 
+  518  export SEASON=winter
+  519  echo "export SEASON=winter" >> ~/.bash_profile
+  520  echo "export SEASON=winter" >> ~/.bashrc
+  521  cat ~/.bashrc
+  522  echo $DAY
+  523  echo $SEASON
+  524  cd otto
+  525  ls
+  526  mv 1234 "command line"/1234
+  527  mv 123"command line"/1234
+  528  mv 1234 "command line" / 1234
+  529  mv --help
+  530  mv ./1234 "command line"/1234
+  531  ls
+  532  mv ./1234 "command line" / 1234
+  533  mv 1234 ../1234
+  534  mv env.txt command\line/1234
+  535  mv 1234 "command line"/
+  536  mv env.txt "command line"/
+  537  mkdir command
+  538  ls
+  539  mv env.txt command/
+  540  mv combined.txt 'command line'/
+  541  rm -i "command line"
+  542  rm -i command\line
+  543  rm -o command\ line
+  544  rm -i command\ line
+  545  ls -l
+  546  sudo rm command\ line
+  547  ls
+  548  mv combined.txt,someText command/
+  549  mv *e* command/
+  550  ls
+  551  cd command
+  552  ls
+  553  mv Challenge_1 ../
+  554  ls
+  555  cd ..
+  556  ls
+  557  mv path.txt command/
+  558  mv command command_line
+  559  ls
+  560  pwd
+  561  cd ..
+  562  cd otto/Challenge_1
+  563  mkdir New
+  564  cat > newFile
+  565  ls
+  566  mv newFile New/
+  567  pwd
+  568  ls
+  569  cd Text_Files
+  570  ls
+  571  cd ..
+  572  ls
+  573  ls -l
+  574  rm Empty_Folder
+  575  rm -r Empty_folder
+  576  rm -r Empty_Folder
+  577  rm -r New
+  578  cd Text_Filed
+  579  cd Text_Files
+  580  cp More_text Learn_to_code
+  581  ls
+  582  cp More_text.txt Learn_to_code
+  583  cp More_Text.txt Learn_to_code
+  584  less -3 Learn_to_code
+  585  head -3 Learn_to_code
+  586  tail -5 Learn_to_code
+  587  less Learn_to_code
+  588  grep a* Lwarn_to_code
+  589  grep a* Learn_to_code
+  590  pwd
+  591  touch blank
+  592  ls *.txt
+  593  wc -l Learn_to_code
+  594  wc Learn_to_code
+  595  wc -w Less_text
+  596  wc -w Less_Text
+  597  ls
+  598  wc -w Less_text.txt
+  599  wc -w Less_Text.txt
+  600  ls | grep *.txt | wc
+  601  ls | grep *.txt 
+  602  ls
+  603  ls | grep *.txt
+  604  grep *.txt
+  605  find . -name "*.txt" -print | wc -l
+  606  grep *.txt
+  607  grep ""*.txt
+  608  man wc
+  609  env
+  610  export DAY=wednesday
+  611  echo "export DAY=wednesday" >> ./bashrc
+  612  echo $DAY
+  613  export DAY=wednesday
+  614  echo "export DAY=wednesday" >> ~/.bashrc
+  615  ~/-bashrc
+  616  cat ~/.bashrc
+  617  echo $DAY
+  618  ls -l
+  619  ls
+  620  cd otto
+  621  ls
+  622  cd Challenge_1
+  623  ls
+  624  cd Text_Files
+  625  ls -l More_text
+  626  ls -l More_Text.txt
+  627  chmond g+w More_Text.txt
+  628  chmod g+w More_Text.txt
+  629  chmod o-r More_Text.txt
+  630  ls -l More_Text.txt
+  631  cd ..
+  632  mkdir No_Change
+  633  ls -l
+  634  echo "Hello, world"
+  635  ls
+  636  cd otto
+  637  ls
+  638  cd Challenge_1
+  639  cat > hello.rb
+  640  ruby hello.rb
+  641  ps -l
+  642  ps x
+  643  ps x | grep "google chrome" | wc -l 
+  644  ps x | find . -name "google chrome" > my text.txt
+  645  ps x | find . -name "google chrome" > mytext.txt
+  646  ls
+  647  less mytext.txt
+  648  ps x | grep google chrome | wc -l | touch chrome.list
+  649  ps x
+  650  ps x | grep chrome | wc -l | touch chrome.list
+  651  ls
+  652  cat chrome.list
+  653  less chrome.list
+  654  ps x | grep chrom
+  655  ps x | grep chrome | wc -l
+  656  ps x | grep chrome | wc -l | touch "chrome.list"
+  657  ps x | grep chrome | wc -l | cat > chrome.list
+  658  ls
+  659  less chrome.list
+  660  ruby hello.rb
+  661  ps x | grep bash
+  662  chmod
+  663  ls -l
+  664  cp
+  665  ps
+  666  env
+  667  pgrep
+  668  psgrep
+  669  man pgrep
+  670  pgrep chrome
+  671  pgrep
+  672  pgrep --help
+  673  pgrep
+  674  pgrep text
+  675  ls
+  676  git --version
+  677  git config --global user.name "octavian"
+  678  git config --global user.email "octavianrotari@gmail.com"
+  679  git config --global core.autocrlf input
+  680  git config --global core.safecrlf true
+  681  cd otto
+  682  mkdir gitDir
+  683  cd gitDir
+  684  echo "Git is Awesome" > gitText
+  685  git init
+  686  git add gitText
+  687  git commit -m "First commit"
+  688  ls -lA
+  689  git status
+  690  ls
+  691  cat > file
+  692  ls
+  693  cat file gitText > combine
+  694  ls
+  695  git status
+  696  rm file
+  697  rm combine
+  698  git status
+  699  git add gitText
+  700  git status
+  701  git commit -m "Update gitText"
+  702  git log
+  703  rm gitText
+  704  touch moreGitText
+  705  git status
+  706  git add moreGitText
+  707  git status
+  708  git add newFile
+  709  touch newFile
+  710  git add newFile
+  711  git status
+  712  git rm newFile
+  713  git rm -f newFile
+  714  ls
+  715  git rm gitText
+  716  git commit -m "deleted gitText"
+  717  git status
+  718  sudo grub-install/dev/sda
+  719  sudo grub-install/dev/sda5
+  720  sudo grub-install/dev/sda3
+  721  sudo grub-install/dev/sda
+  722  sudo grub-install /dev/sda
+  723  mount -t "ntfs" -o
+  724  git st
+  725  cd project
+  726  ls
+  727  cd Projects
+  728  ls
+  729  cd git-tutorial-tx
+  730  cd hello
+  731  git st
+  732  ls
+  733  cd otto
+  734  ls
+  735  cd gitDir
+  736  git log
+  737  git checkout 07c3a4722556d38c06743391a0206f846cb3d6ec
+  738  ls
+  739  git checkout master
+  740  ls
+  741  ls -al ~/.ssh
+  742  eval "$(ssh-agent -s)"
+  743  ssh-add ~/.ssh/id_rsa
+  744  ssh -T git@github.com
+  745  ssh -vT git@github.com
+  746  eval "$(ssh-agent -s)"
+  747  ssh-add
+  748  ssh -T git@github.com
+  749  git remote -v
+  750  git remote add origin git@github.com:makersacademy/playing-with-git.git
+  751  https://github.com/OctavianRotari/playing-with-git.git
+  752  git remote add origin https://github.com/OctavianRotari/playing-with-git.git
+  753  git remote -v
+  754  git remote rm destination
+  755  git remote -v
+  756  git remote rm destination
+  757  git remote rm origin
+  758  git remote -v
+  759  git remote add origin https://github.com/OctavianRotari/playing-with-git.git
+  760  git remote -v
+  761  cat .git/config
+  762  git push -u origin master
+  763  git push
+  764  git log
+  765  git pull origin master
+  766  git pull
+  767  git log
+  768  mkdir ~/Projects
+  769  ls
+  770  cd -
+  771  ls
+  772  cd ~
+  773  cd Projects
+  774  mkdir ruby-practice
+  775  cd ruby-practice
+  776  git init
+  777  echo "Introductory Ruby exercise" > README
+  778  git add README
+  779  git commit -m "Initial commit"
+  780  git log
+  781  cd ..
+  782  git clone https://github.com/JoshCheek/ruby-kickstart.git
+  783  git config --global core.autocrlf input
+  784  git config --global core.safecrlf true
+  785  mkdir git-tutorial-tx
+  786  cd git-tutorial-tx
+  787  mkdir hello
+  788  cd hello
+  789  cat puts "Hello, world" > hello.rb
+  790  cat "puts "Hello, world"" > hello.rb
+  791  cat hello.rb
+  792  ls
+  793  rm hello.rb
+  794  cat > hello.rb
+  795  git init
+  796  git add hello.rb
+  797  git commit -m "First Commit"
+  798  git status
+  799  git add hello.rb
+  800  git status
+  801  git add a.rb
+  802  git commit -m
+  803  git commit
+  804  git commit -m "second commit"
+  805  git commit
+  806  git log
+  807  git checkout 21a1e9e
+  808  git checkout 418a395
+  809  git commit
+  810  git rm commit
+  811  ls
+  812  rm -f hello.rb
+  813  git status
+  814  git rm hello.rb
+  815  git log
+  816  git chechout 418a3956e390
+  817  git checkout 418a3956e390
+  818  git log
+  819  git status
+  820  git commit
+  821  git status
+  822  git commit -m "First commit"
+  823  git status
+  824  cd -
+  825  rm git-tutorial-tx
+  826  rm -r git-tutorial-tx
+  827  ls
+  828  cd -
+  829  cd ..
+  830  rm -r hello
+  831  rm -f hello
+  832  sudo rm hello
+  833  sudo rm -r hello
+  834  ls
+  835  mkdir hello
+  836  cd hello
+  837  cat > hello.rb
+  838  ls
+  839  rm hello.rb
+  840  git init
+  841  cat > hello.rb
+  842  git add hello.rb
+  843  git status
+  844  git commit -m "first commit"
+  845  git add hello.rb
+  846  git status
+  847  git commit
+  848  git status
+  849  git add hello.rb
+  850  git status
+  851  add hello.rb
+  852  git add hello.rb
+  853  git status
+  854  git commit -m "Added a comment"
+  855  git log
+  856  git log --pretty=online
+  857  git log -pretty=oneline
+  858  git log--pretty=online
+  859  git --help
+  860  [alias]
+  861  sudo apt-get install dump
+  862  [alias]
+  863  git config --global alias.ci commit
+  864  git config --global alias.st status
+  865  git config --global alias.br branch
+  866  git config --global alias.hist 'log --pretty=format:"%h %ad | %s%d [%an]" --graph --date=short'
+  867  git config --global alias.type 'cat-file -t'
+  868  git config --global alias.dump 'cat-file -p'
+  869  git co
+  870  git st
+  871  env
+  872  export co = checkout
+  873  cd Project
+  874  ls
+  875  cd Projects
+  876  ls
+  877  cd git-tutorial-tx/hello
+  878  git co "first commit"
+  879  git config --global alias.co checkout
+  880  git co "first commit"
+  881  git si
+  882  git st
+  883  sit hist
+  884  git config --global alias.hist 'log --pretty=format:"%h %ad | %s%d [%an]" --graph --date=short'
+  885  git hist
+  886  git co "first commit"
+  887  git co Using ARGV
+  888  git checkout first commit
+  889  git checkout "first commit"
+  890  git status
+  891  git log
+  892  git hist
+  893  git co 0e3f5bd
+  894  git co master
+  895  cat hello.rb
+  896  git hist
+  897  git co 116db83
+  898  cat hello.rb
+  899  git co master
+  900  cat hello.rb
+  901  git tag
+  902  git tag v1
+  903  git checkout v1^
+  904  cat hello.rb
+  905  git co v1-beta
+  906  git checkout v1-beta
+  907  git hist master all
+  908  git hist master --all
+  909  env | find .-name "t*" -print > myText.txt
+  910  env | find . -name "t*" -print > myText.txt
+  911  sudo env | find . -name *t*" -ptint > myText.txt
+  912  env
+  913  env | find . -name "t*" -print > myText.txt
+  914  sudo sy
+  915  sudo su
+  916  cd ~
+  917  ls
+  918  cs otto
+  919  cd otto
+  920  ls
+  921  cd gitDir
+  922  ls
+  923  cd ..
+  924  ls
+  925  cd ..
+  926  ls
+  927  cd Projects
+  928  ls
+  929  cd git-tutorial-tx
+  930  ls
+  931  cd hello
+  932  git add hello.rb
+  933  git commit
+  934  git add hello.rb
+  935  git status
+  936  git master
+  937  git co master
+  938  git aborting
+  939  git status
+  940  git reset HEAD hello.rb
+  941  git status
+  942  git reseat HEAD hello.rb
+  943  git reset HEAD hello.rb
+  944  git add hello.rb
+  945  git commit -m hello.rb
+  946  git status
+  947  git co master
+  948  git status
+  949  git add hello.rb
+  950  git status
+  951  git reset HEAD hello.rb
+  952  git co hello.rb
+  953  git status
+  954  git add hello.rb
+  955  git commit -m "Oops, we didn't want this commit"
+  956  git revert HEAD
+  957  GIT STATUS
+  958  git staus
+  959  git status
+  960  git commit "oops"
+  961  git commit -m "oops"
+  962  git status
+  963  git revert HEAD
+  964  git hist
+  965  git tag Oops,
+  966  git reset --hard v1
+  967  git hist
+  968  git hist --all
+  969  git tag -d oops
+  970  git tag -d Ooops
+  971  git tag -d Oops
+  972  git tag --d Ops
+  973  git hist --all
+  974  git tag -d c6934c3 
+  975  git tag-d Oops
+  976  git tag -d Oops
+  977  git tag -d Oops,
+  978  git tag -oops
+  979  git tad -d oops
+  980  git tag -d oops
+  981  git hist all
+  982  git hist --all
+  983  git add hello.rb
+  984  git commit - "add an aouthor comment"
+  985  git commit -m "add an author comment"
+  986  git add hello.rb
+  987  git commit --amend -m "added author/email"
+  988  git hist
+  989  mkdir
+  990  mkdir lib
+  991  git mv hello.rb lib
+  992  git status
+  993  git commit -m "Moved hello.rb to lib"
+  994  git status
+  995  ls
+  996  gem install rake 
+  997  #!/usr/bin/ruby -wKU
+  998  task :default => :run
+  999  task :run do
+ 1000  end
+ 1001  cat > Rakefile
+ 1002  git add Rakefile
+ 1003  git commit -m "added a rakefile"
+ 1004  rake
+ 1005  ruby rake
+ 1006  rake --trace
+ 1007  rake
+ 1008  rake hello.rb
+ 1009  rake
+ 1010  gem install rake
+ 1011  rake
+ 1012  ls -C .git
+ 1013  ls -lA
+ 1014  mkdir
+ 1015  mkdir ex
+ 1016  ls
+ 1017  rm -r ex
+ 1018  le -C .git/objects/<dir>
+ 1019  ls
+ 1020  ls -C .git/object
+ 1021  ls -C .git
+ 1022  ls -C .git/objects
+ 1023  ls -C .git/objects/04
+ 1024  cat .git/config
+ 1025  git hist --max 0-count=1
+ 1026  git hist --max -count=1
+ 1027  git hist --max-count=1
+ 1028  git cat-file -t fcb6dc2
+ 1029  git cat-file -d fcb6dc2
+ 1030  git cat-file -p fcb6dc2
+ 1031  git status
+ 1032  git add rakefile
+ 1033  git add Rakefile
+ 1034  git add hello.rb
+ 1035  rm -r :run
+ 1036  ls
+ 1037  rm hello.rb
+ 1038  git status
+ 1039  git rm hello.rb
+ 1040  git status
+ 1041  git commit -m "lab 26"
+ 1042  git push -u https://github.com/OctavianRotari/git-immersion.git
+ 1043  git remote origin https://github.com/OctavianRotari/git-immersion.git
+ 1044  git remote add origin https://github.com/OctavianRotari/git-immersion.git
+ 1045  git remote -v
+ 1046  git push -u origin master
+ 1047  cd ~
+ 1048  ls
+ 1049  cd Desktop
+ 1050  mkdir temp
+ 1051  cd temp
+ 1052  gem install unixoid-challenge
+ 1053  mkdir my/private/files
+ 1054  mkdir -p my/private/files
+ 1055  mkdir -p my/public/files
+ 1056  cd my/private/files
+ 1057  touch t-vars.env
+ 1058  env | find . -name "T*" -print > t-vars.env
+ 1059  env
+ 1060  env | find . -name "T*" -print 
+ 1061  env | find . -name "T*" -print >> t-vars.env
+ 1062  env | grep T* > t-vars.env
+ 1063  env | find . -name "T*" -print > text.txt
+ 1064  env
+ 1065  env | grep T*. > t-vars.env
+ 1066  env | grep T*= > t-vars.env
+ 1067  env | ls T*=
+ 1068  env | grep T*=
+ 1069  env | grep T*
+ 1070  env | grep T**
+ 1071  env | grep T* | find . -name T* -print > t-vars.env
+ 1072  env | grep T* | ls T*
+ 1073  env | grep grep '^\./ABC'
+ 1074  env | grep '^\./T'
+ 1075  env | grep T
+ 1076  man grep
+ 1077  env | grep^T*
+ 1078  env | grep ^T*
+ 1079  env | grep ^T* > t-vars.env
+ 1080  env | grep ^T
+ 1081  env | grep ^T > t-vars.env
+ 1082  export TESTING_MAKERS=working
+ 1083  echo "export TESTING_MAKERS=working" ~/.bashcr
+ 1084  ;exit
+ 1085  exit
+ 1086  echo TESTING_makers
+ 1087  echo $TESTING_MAKERS
+ 1088  ENV
+ 1089  env
+ 1090  env | grep T
+ 1091  env | grep ^T
+ 1092  echo "export TESTING_MAKERS=working" ~/.bashrc
+ 1093  echo $TESTING_MAKERS
+ 1094  export TESTING_MAKERS=working
+ 1095  echo "export TESTING_MAKERS=working" ~/.bashrc
+ 1096  echo $TESTING_MAKERS
+ 1097  TESTING_MAKERS=working
+ 1098  echo TESTING_MAKERS=working
+ 1099  export TESTING_MAKERS=working
+ 1100  echo TESTING_MAKERS=working
+ 1101  echo $TESTING_MAKERS
+ 1102  echo "export TESTING_MAKERS=working" ~/.bashrc
+ 1103  echo $TESTING_MAKERS
+ 1104  export TESTING_MAKERS=working
+ 1105  echo $TESTING_MAKERS
+ 1106  echo "export TESTING_MAKERS=working" ~./bashrc
+ 1107  echo $TESTING_MAKERS
+ 1108  echo $winter
+ 1109  echo $WINTER
+ 1110  echo $SEASON
+ 1111  export
+ 1112  export TESTING_MAKERS=working
+ 1113  echo "export TESTING_MAKERS=working" >> ~/.bashrc
+ 1114  echo $TESTING_MAKERS
+ 1115  git init
+ 1116  ls
+ 1117  cd Desktop
+ 1118  ls
+ 1119  cd temp
+ 1120  ls
+ 1121  cd my
+ 1122  ls
+ 1123  cd private
+ 1124  cd
+ 1125  cd Desktop
+ 1126  cd private
+ 1127  cd temp
+ 1128  cd private
+ 1129  cd my
+ 1130  cd private
+ 1131  ls
+ 1132  cd ..
+ 1133  ls
+ 1134  git init
+ 1135  cd my
+ 1136  cd private
+ 1137  ls
+ 1138  cd files
+ 1139  ls
+ 1140  git add t-vars.env
+ 1141  git commit -m "first commit T-vars
+ 1142  git status
+ 1143  git commit -m "first commit t-vars"
+ 1144  git status
+ 1145  env | grep ^T | wc -l > t-vars.count
+ 1146  env | grep ^T | wc -l | cat > t-vars.count
+ 1147  ls -l
+ 1148  chmod g/o-r/w t-vars.env
+ 1149  chmod g-w t-vars.env
+ 1150  chmod o-w t-vars.env
+ 1151  chmod o-r t-vars.env
+ 1152  chmod o-w t-vars.env
+ 1153  ls -l
+ 1154  chmod g-r t-vars.env
+ 1155  ls -l
+ 1156  cd ..
+ 1157  cd my
+ 1158  cd ..
+ 1159  ls -l
+ 1160  git status
+ 1161  git commit
+ 1162  git add ./private/files/t-vars.count
+ 1163  git status
+ 1164  git commit -m "changed permission t-vars.count"
+ 1165  chmod -r go-rw files 
+ 1166  chmos g-rw files
+ 1167  chmod g-rw files
+ 1168  ls
+ 1169  chmod go-rw private
+ 1170  ls -l
+ 1171  cd private
+ 1172  ls
+ 1173  cd files
+ 1174  ls
+ 1175  mv t-vars.count./private/my/public/files/t-vars.count
+ 1176  mv t-vars.count./private/my/public/files/ t-vars.count
+ 1177  mv t-vars.count ./private/my/public/files/ t-vars.count
+ 1178  mv t-vars.count./private/my/t-vars-count
+ 1179  mv t-vars.count ./private/my/ t-vars-count
+ 1180  mv t-vars.count./private/my/ t-vars-count
+ 1181  mv t-vars.count ./private/my 
+ 1182  mv t-vars.count private/my 
+ 1183  mv t-vars.count ./private/my/
+ 1184  mv t-vars.count ./private
+ 1185  cd ..
+ 1186  mv t-vars.count ./my/public
+ 1187  mv t-vars.count ./private
+ 1188  git log
+ 1189  git co 4a4a1c4
+ 1190  ls
+ 1191  cd files
+ 1192  ls
+ 1193  cd Desktop
+ 1194  mkdir otto
+ 1195  cd ott
+ 1196  cd otto
+ 1197  mkdir 1
+ 1198  mkdir 2
+ 1199  cd 1
+ 1200  touch 12.txt
+ 1201  mv 12.txt./otto/2/12.txt
+ 1202  man mv
+ 1203  mv 12.txt otto/2/12.txt
+ 1204  mv 12.txt ./otto/2/12.txt
+ 1205  mv 12.txt 1/otto/2/12.txt
+ 1206  mv 12.txt /otto/2/12.txt
+ 1207  mv 12.txt ~Desktop/otto/2/
+ 1208  mv 12.txt ~/Desktop/otto/2/
+ 1209  cd Desktop
+ 1210  ls -lA
+ 1211  rm -f total\4
+ 1212  ls -lA
+ 1213  cd Desktop
+ 1214  mkdir -p my/private/files
+ 1215  mkdir -p my/public/files
+ 1216  cd my/private/files
+ 1217  cd ..
+ 1218  git init
+ 1219  cd my/private/files
+ 1220  cd private/files
+ 1221  touch t-vars.env
+ 1222  env | grep ^T > t-vars.env
+ 1223  git add t-vars.env
+ 1224  git commit -m "first comit T env"
+ 1225  cat > t-vars.env
+ 1226  ls
+ 1227  env | grep ^T > t-vars.env
+ 1228  cat > tt-vars.env
+ 1229  cat tt-vars.env t-vars.env > t-vars.env
+ 1230  rm tt-vars.env
+ 1231  rm t-vars.env
+ 1232  touch t-vars.env
+ 1233  echo "List of env vars that begin with T" > t.vars.env
+ 1234  rm t.vars.env
+ 1235  echo "List of env vars that begin with T" > t-vars.env
+ 1236  env | grep ^T > t-vars.env
+ 1237  echo "List of env vars that begin with T" > t-vars.env
+ 1238  env | grep ^T | echo > t-vars.env
+ 1239  echo "List of env vars that begin with T" > t-vars.env
+ 1240  env | grep ^T echo > t-vars.env
+ 1241  echo "List of env vars that begin with T" > t-vars.env
+ 1242  env | grep ^T | sed -i t-vars.env
+ 1243  env | grep ^T >> t-vars.env
+ 1244  git add t-vars.env
+ 1245  git commit -m "right creation list"
+ 1246  echo $TESTING_MAKERS
+ 1247  ls
+ 1248  cd Desktop
+ 1249  cd temp/my/public/files
+ 1250  ls
+ 1251  cd my/public/files
+ 1252  env | grep ^T | wc -l > t-vars.count
+ 1253  cd ..
+ 1254  cd..
+ 1255  cd ..
+ 1256  cd private/files
+ 1257  chomp go-rw t-vars.env
+ 1258  chmop go-rw t-vars.env
+ 1259  chmod go-rw t-vars.env
+ 1260  ls -l
+ 1261  cd ..
+ 1262  chmod go-rw files
+ 1263  ls -l
+ 1264  cd ..
+ 1265  cd pubblic/files
+ 1266  ls
+ 1267  cd public/files
+ 1268  chmod go+rw t-vars.count
+ 1269  ls -l
+ 1270  echo $HOME
+ 1271  find ~/home/octo -name "*.txt" -print | wc -l > text-files-count.txt
+ 1272  find ~ -name "*.txt" -print | wc -l > text-files-count.txt
+ 1273  sudo find ~ -name "*.txt" -print | wc -l > text-files-count.txt
+ 1274  ls
+ 1275  cd ./files/public
+ 1276  cd ..
+ 1277  cd private/files
+ 1278  env | head -3
+ 1279  env | head -3 > first-three-env.txt | sort
+ 1280  env | head -3 | sort > first-three-env.txt
+ 1281  git add first-three-env.txt
+ 1282  git status
+ 1283  git add text-files-count.txt
+ 1284  cd ..
+ 1285  cd..
+ 1286  cd ..
+ 1287  cd public/files
+ 1288  git add text-files-count.txt
+ 1289  git add t-vars.count
+ 1290  git status
+ 1291  git commit -m "exercise from 7-13" 
+ 1292  cd ..
+ 1293  cd private/files
+ 1294  history
+ 1295  history > commands.txt
