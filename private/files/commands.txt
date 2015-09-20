@@ -1,106 +1,3 @@
-  296  cat longText.txt
-  297  cat longText.txt | less
-  298  less longText.txt
-  299  cat combined.txt > newCombined.txt
-  300  ls *.txt
-  301  ls new*.txt
-  302  cd ~/documents find . -name *.html -print > html.txt
-  303  cd ~/Documents find . -name *.html -print > html.txt
-  304  cd ~ find . -name "*.txt" -print
-  305  find . -name "*.txt" -print
-  306  find . -name *.txt -print > myTxt.txt
-  307  otto
-  308  cd otto
-  309  find . -name *.txt > myTxt.txt
-  310  find . -name "*.txt" > myTxt.txt
-  311  less myTxt.txt
-  312  greo binary *.txt
-  313  grep binary *.txt
-  314  find ~ "*.txt" -print | grep readme
-  315  cd ..
-  316  find .-name "*.txt" -print | grep readme
-  317  find . -name "*.txt" -print | grep readme
-  318  otto
-  319  cd otto
-  320  find . -name "*.txt" -print | grep readme
-  321  cat > leggimi
-  322  mv leggimi leggimi.txt
-  323  find . -name "*.txt" -print | grep readme
-  324  find . -name "*.txt" -print | grep README
-  325  grep readme.txt
-  326  grep readme .txt
-  327  grep readme *.txt
-  328  find ~ -name "*.txt" -print | grep README
-  329  find -name "*.txt" -print | grep readme
-  330  find ~ -name "*.txt" -print | grep README
-  331  find -name "*.txt" -print | grep README
-  332  find -name "*.txt" -print
-  333  find -name "*.txt" -print | grep binary
-  334  find ~ -name "*" -print | grep "\d+"
-  335  find -name "*.txt" -print | grep binary
-  336  find ~ -name "*.txt" -print | grep README
-  337  find -name "*.txt" -print 
-  338  mv leggimi.txt readme.txt
-  339  find -name "*.txt" -print | grep readme
-  340  mount -t "ntfs" -o
-  341  which ruby
-  342  ruby version
-  343  sudo apt-get install ruby-full
-  344  head `which irb`
-  345  head `which ruby`
-  346  env
-  347  "echo $ENV_VAR"
-  348  ENV_VAR
-  349  ENV HOME
-  350  env home
-  351  env-home
-  352  env_home
-  353  DESKTO_SESSION
-  354  LC_TIME=de_DE.UTF-8
-  355  echo $HOME
-  356  echo $LANGUAGE
-  357  echo "hello"
-  358  echo "Hello, world" > hello.txt
-  359  ls
-  360  rm -i hello.txt
-  361  echo $PATH
-  362  echo $ruby
-  363  echo $ls
-  364  sudo mkdir /devices/storage
-  365  sudo mount -o ro /dev/sda1
-  366  sudo mkdir /dev/sda5 at /media/octo/storage
-  367  sudo mkdir /dev/sda5/media/octo/storage
-  368  pwd
-  369  cd storage
-  370  sudo mount -o ro /dev/sda5 
-  371  sudo mount -o ro /dev/sda5/media/storage
-  372  rvm use 1.9.3
-  373  ruby version
-  374  which ruby
-  375  rvm use 1.5.0
-  376  rvm
-  377  /opt
-  378  cd opt
-  379  cd /opt
-  380  rmv
-  381  cd -
-  382  rvm use 1.9.3
-  383  sudo rvm install 1.9.3
-  384  rvmsudo rvm install 1.9.3
-  385  gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3
-  386  \curl -sSL https://get.rvm.io | bash
-  387  `source /home/octo/.rvm/scripts/rvm`
-  388  rvm use 1.9.3
-  389  export PATH=$PATH:/opt/rvm/bin:/opt/rvm/sbin
-  390  rvm use 1.9.3
-  391  cd home 
-  392  cd octo
-  393  ls
-  394  cd ..
-  395  cd octo
-  396  cd .rvm
-  397  cd scripts/rvm
-  398  cd scripts
   399  cd rvm
   400  ls
   401  rvm set 1.9.3
@@ -998,3 +895,111 @@
  1293  cd private/files
  1294  history
  1295  history > commands.txt
+ 1296  git add comands.txt
+ 1297  ls
+ 1298  git add commands.txt
+ 1299  git commit -m "history of command line"
+ 1300  cd Desktop
+ 1301  cd my 
+ 1302  git remote -v
+ 1303  git remote add origin https://github.com/OctavianRotari/exercise-command-line-.git
+ 1304  git push -u origin master
+ 1305  cd Desktop
+ 1306  mkdir temp
+ 1307  mv my./temp 
+ 1308  mv my./temp my
+ 1309  sudo mv .my/ temp/my
+ 1310  sudo mv my/ temp my
+ 1311  sudo mv my/ temp/my
+ 1312  sudo mv my temp/my
+ 1313  sudo mv ./my temp/my 
+ 1314  sudo mv /./my /temp/my
+ 1315  mv my temp/my
+ 1316  ls
+ 1317  mkdir
+ 1318  mkdir temp
+ 1319  mv my temp/my
+ 1320  git add temp
+ 1321  git status
+ 1322  cd temp
+ 1323  git status
+ 1324  ls
+ 1325  cd my
+ 1326  git status
+ 1327  cd Desktop
+ 1328  cd temp
+ 1329  Overall count is:"$(env | grep ^T | wc –l) > ./my/public/files/t-vars.count.txt
+
+ 1330  "Overall count is:"$(env | grep ^T | wc –l) > ./my/public/files/t-vars.count
+ 1331  "Overall count is:"(env | grep ^T | wc –l) > ./my/public/files/t-vars.cunt
+ 1332  cd public
+ 1333  cd my/public/file
+ 1334  cd my
+ 1335  cd public
+ 1336  cd files
+ 1337  env | grep ^T | wc -l > t-vars.count
+ 1338  "Overall count is:" (env | grep ^T | wc -l) > t-vars.count
+ 1339  "Overall count is:"$(env | grep ^T | wc -l) > t-vars.count
+ 1340  "Overall count is:"$env | grep ^T | wc -l > t-vars.count
+ 1341  echo > "Overall count is:" $ env | grep ^T | wc -l >> t-vars.count
+ 1342  t-vars.count >> "Overall count is:" $ env | grep ^T | wc -l >> t-vars.count
+ 1343  env | grep ^T | wc -l > t-vars.count
+ 1344  vi t-vars.count
+ 1345  ls 
+ 1346  rm -f Overall\count\is:
+ 1347  rm Overall\count\is:
+ 1348  rm "Overall count is:"
+ 1349  add t-vars.count
+ 1350  git add t-vars.count
+ 1351  git status
+ 1352  git commit -m "add -Overall count is-"
+ 1353  git status
+ 1354  git push
+ 1355  cd ..
+ 1356  cd privayte
+ 1357  ls -l
+ 1358  cd ..
+ 1359  "Overall count is:"$(env | grep ^T | wc -l > t-vars.count)
+ 1360  'Overall count is:'$(env | grep ^T | wc -l > t-vars.count)
+ 1361  ed -s file << EOF
+ciao
+
+ 1362  "Overall count is:$(env | grep ^T | wc -l)" > t-vars.count
+ 1363  "Overall count is:$(env | grep ^T | wc -l)" >> t-vars.count
+ 1364  cd my
+ 1365  cd publi
+ 1366  cd public
+ 1367  cd files
+ 1368  "Overall count is:$(env | grep ^T | wc -l)" > t-vars.count
+ 1369  "Overall count is:$(env | grep ^T | wc -l)" | echo t-vars.count
+ 1370  "Overall count is:$(env | grep ^T | wc -l) > t-vars.count"
+ 1371  "Overall count is:$(env | grep ^T | wc -l)" | cat > t-vars.count
+ 1372  t-vars.count << "Overall count is:$(env | grep ^T | wc -l)"
+
+
+ 1373  "Overall count is:$(env | grep ^T | wc -l)" | cat > t-vars.count
+ 1374  "Overall count is:$(env | grep ^T | wc -l)" > t-vars.count
+ 1375  "Overall count is:$(env | grep ^T | wc -l)" cat > t-vars.count
+ 1376  "Overall count is:$(env | grep ^T | wc -l)" | cat > t-vars.count
+ 1377  sed "Overall count is: $(env | grep ^T | wc -l)" | cat > t-vars.count
+ 1378  sed -e "Overall count is: $(env | grep ^T | wc -l)" | cat > t-vars.count
+ 1379  sed -e "Overall count is: $(env | grep ^T | wc -l)" > t-vars.count
+ 1380  ed -s "Overall count is: $(env | grep ^T | wc -l)" > t-vars.count
+ 1381  "Overall count: $(env | grep -i "^t" | wc -l)" > t-vars.count.txt
+ 1382  echo "Overall count: $(env | grep -i "^t" | wc -l)" > t-vars.count.txt
+ 1383  git status
+ 1384  ls
+ 1385  git rm t.vars.count
+ 1386  git rm t-vars.count
+ 1387  git rm -f t-vars.count
+ 1388  ls
+ 1389  git add t-vars.count.txt
+ 1390  git status
+ 1391  git commit -m "corrected way to create t-vars.count"
+ 1392  git push
+ 1393  cd ../..
+ 1394  cd private/files
+ 1395  ls
+ 1396  history
+ 1397  ls
+ 1398  history > commands.txt
